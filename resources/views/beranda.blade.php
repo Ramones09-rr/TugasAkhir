@@ -7,8 +7,8 @@
       <div class="carousel-item active">
       <img src="{{asset('img/h1.jpg')}}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>UTS SEMESTER 5</h1>
-          <p>Mata Kuliah Pengembangan Aplikasi Web</p>
+          <h1>UTS SEMESTER 17</h1>
+          <p>Mata Kuliah Pengembangan Aplikasi Bergerak</p>
         </div>
       </div>
     </div>
