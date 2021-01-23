@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\BerandaController;
-use App\Http\Controllers\KoleksiController;
-use App\Http\Controllers\PeminjamanController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,8 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [BerandaController::class, 'index'])->name('beranda');
-
-Route::get('/koleksi', [KoleksiController::class, 'show'])->name('koleksi');
-
-Route::get('/peminjaman', [PeminjamanController::class, 'create'])->name('peminjaman');
+Route::resource('/', [UserController::class]);
